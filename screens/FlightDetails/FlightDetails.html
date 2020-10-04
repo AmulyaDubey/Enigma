@@ -14,16 +14,16 @@
             
             <div class="flight_details_content">
                 <div class="flight_details_content_text">
-                    <p><strong>Flight Number:</strong> &nbsp; ABC</p>
-                    <p><strong>Gate Number:</strong> &nbsp; ABC</p>
+                    <p><strong>Flight Number:</strong>  &nbsp;<span id="flightNumber"></span></p>
+                    <p><strong>Gate Number:</strong> &nbsp; G7</p>
                 </div>
                 <img src="../../assets//images/planets.png" />
-                <p class="flight_details_from" >ABCDEGRRRRRRRRRR</p>
-                <p class="flight_details_to" >ABCDEGRRRRRRRRRR</p>
+                <p class="flight_details_from" ><span id="from"></span></p>
+                <p class="flight_details_to" ><span id="to"></span></p>
                 <div class="flight_details_2">
-                    <p>Estimated Departure Time:</p>
-                    <p>Estimated Arrival Time:</p>
-                    <p>Stops: 0</p>
+                    <p>Estimated Departure Time: <span id="time"></span></p>
+                    <p>Estimated Arrival Time: <span>20:45</span></p>
+                    <p>Stops: 1</p>
                </div>
             </div>
         </div>
@@ -33,22 +33,18 @@
             </div>           
             <div class="flight_details_content">
                 <div class="flight_class_box">
-                    <p>Economy</p>
+                    <p>Regular</p>
                 </div>
                 <div class="flight_class_box">
-                    <p>Economy</p>
+                    <p>Aliens</p>
 
                 </div>
                 <div class="flight_class_box">
-                    <p>Economy</p>
+                    <p>Marsians</p>
 
                 </div>
                 <div class="flight_class_box">
-                    <p>Economy</p>
-
-                </div>
-                <div class="flight_class_box">
-                    <p>Economy</p>
+                    <p>Humanoid</p>
 
                 </div>
             </div>
@@ -92,18 +88,42 @@
             <div class="flight_details_content bill">
                 <div>
                     <h3 style="font-size: 1.5vw; opacity: 0.8">Total Amount:</h3>
-                    <h1 style="font-size: 3vw;">789019</h1>
+                    <h1 style="font-size: 3vw;" id="total"></h1>
 
                 </div>
                 <div class="bill_details">
-                    <h3><strong>Fuel Charges: </strong> 27820</h3>
-                    <h3><strong>Outer Space Travel Tax: </strong> 27820</h3>
-                    <h3><strong>Convience Fee: </strong> 27820</h3>
-                    <h3><strong>Web Developer Fee: </strong> 27820000</h3>
+                    <h3><strong>Fuel Charges: </strong> <span id='price'></span></h3>
+                    <h3><strong>Outer Space Travel Tax: </strong>$5000</h3>
+                    <h3><strong>Convience Fee: </strong> $270</h3>
+                    <h3><strong>Web Developer Fee: </strong> $27820000</h3>
                 </div>
             </div>
+        </div>
+        <div style="width:100%; display: flex; justify-content: center;">
+            <button class="Payment_Btn" onclick="payment()">Proceed to Payment</button>
         </div>
     </div>
 
 </body>
 <script src="../../javascript/resize-iframe.js"></script>
+<script>
+
+    var url_string=window.location.href
+    var url=new URL(url_string)
+    var c = url.searchParams.get("type");
+    var obj
+    if(c== 'search')  obj=JSON.parse(window.localStorage.getItem("flightSelected"))
+    else obj=JSON.parse(window.localStorage.getItem("booked"))
+    document.getElementById('flightNumber').innerHTML=obj.flightNumber
+    document.getElementById('from').innerHTML=obj.departureCity
+    document.getElementById('to').innerHTML=obj.arrivalCity
+    document.getElementById('time').innerHTML=obj.time
+    document.getElementById('price').innerHTML="$"+obj.price
+    var total=5000+270+27820000+ obj.price
+    document.getElementById("total").innerHTML= "$"+total
+
+    function payment(){
+        window.localStorage.setItem("booked", JSON.stringify(obj))
+        window.location.href="https://amulyadubey.github.io/Enigma/screens/PaymentSuccess/PaymentSuccess"
+    }
+</script>

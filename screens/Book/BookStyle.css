@@ -164,10 +164,11 @@ button:focus{
     justify-content: center;
     align-items: center;
 }
-
-datalist{
-    background-color: teal;
+::-webkit-scrollbar{
+    display: none;
 }
+
+
 
 
 

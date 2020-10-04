@@ -35,6 +35,7 @@ setInterval(function() {
 
   selectFlight=(i)=>{
     window.localStorage.setItem("flightSelected", JSON.stringify(this.flightData[i]))
+    window.location.href='http://127.0.0.1:5501/screens/FlightDetails/FlightDetails.html?type=search'
   }
 
 
@@ -81,7 +82,6 @@ setInterval(function() {
   
     })
   }
-
 
 
 

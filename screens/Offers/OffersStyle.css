@@ -71,3 +71,28 @@ img{
     width: 100%;
     justify-content: space-evenly;
 }
+
+.offers_exp{
+    height: 30vw;
+    padding: 4%;
+    display: flex;
+    background-color: #2F0551;
+    justify-content: space-around;
+}
+
+.offers_card{
+    background-image: linear-gradient(#FF9B9B, #2F0551);
+    width: 20vw;
+    height: 20vw;
+    background-color: white;
+    border-radius: 3vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offers_card img{
+    object-fit: contain;
+}
+
