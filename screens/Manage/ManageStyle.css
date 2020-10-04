@@ -6,3 +6,37 @@ iframe{
     margin: 0;
     border: none
 }
+
+.manage_booking_full_screen{
+    background-image: url('../../assets/images/manage2.jpg');
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_1{
+    border: none;
+    width: 30vw;
+    height: 4vw;
+    border-radius: 2vw;
+    background-image: linear-gradient(rgba(0,0,0,0), #FBD5D5);
+    opacity:0.9
+}
+
+.btn_2{
+    border: none;
+    width: 30vw;
+    height: 4vw;
+    margin-top:5vw;
+    border-radius: 2vw;
+    background-image: linear-gradient(rgba(0,0,0,0), #FBD5D5);
+    opacity:0.9
+
+}

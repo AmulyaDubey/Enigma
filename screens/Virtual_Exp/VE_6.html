@@ -18,9 +18,14 @@
         </div>
     </div>   
 </body>
-<script src="../../javascript/scroll.js"></script>
 <script>
+    var url_string=window.location.href
+    var url=new URL(url_string)
+    var c = url.searchParams.get("type");
+
+
     function goBack(){
-        window.location.href="http://127.0.0.1:5501/screens/Virtual_Exp/VE_4.html"
+        if(c== 've')window.location.href="http://127.0.0.1:5501/screens/Virtual_Exp/VE_4.html"
+        if(c== 've')window.location.href="http://127.0.0.1:5501/screens/Manage/Manage.html"
     }
 </script>

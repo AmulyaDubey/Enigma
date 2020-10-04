@@ -208,3 +208,13 @@ iframe{
     text-align: center;
     font-size: 4vw;
 }
+.Payment_Btn{
+    width: 25vw;
+    height: 4vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+    background-image: linear-gradient(#113D77, #091731);
+    border: none;
+    color: white;
+    margin-top: 5vw;
+}

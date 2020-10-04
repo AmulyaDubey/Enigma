@@ -5,6 +5,32 @@
 
 <body>
     <iframe src="../../components/NavigationBar/navbar.html?active=manage_booking"  frameBorder="0" width="100%"></iframe>
-    <h1>This is the manage page</h1>
+    <div class="manage_booking_full_screen">
+        <button onclick="fligthDetails()" class="btn_1">See booked flight details</button>
+        <button onclick="tracking()" class="btn_2">Check Flight Status(Tracking)</button>
+    </div>
 
 </body>
+<script src="../../javascript/resize-iframe.js"></script>
+
+<script>
+
+    function fligthDetails(){
+        var obj=JSON.parse(window.localStorage.getItem("flightSelected"))
+        if(!obj){
+            alert("You have not booked any flights!")
+            return;
+        }
+        window.location.href="https://amulyadubey.github.io/Enigma/screens/FlightDetails/FlightDetails?type=manage"
+    }
+
+    function tracking(){
+        var obj=JSON.parse(window.localStorage.getItem("flightSelected"))
+        if(!obj){
+            alert("You have not booked any flights!")
+            return;
+        }
+        window.location.href="https://amulyadubey.github.io/Enigma/screens/Virtual_Exp/VE_6?type=manage"
+    }
+
+</script>
