@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="VE_Style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color: #070910;">
+    <div class="screen" style="display:flex; flex-direction: column; align-items: center; justify-content: center;">
+        <video style="height:100%; width: 100%; object-fit: cover;" autoplay loop>
+            <source src="../../assets/images/rocket1.mp4" />
+        </video>
+        <i onclick="goBack()" style="position:absolute; top:3vw; left:3vw; color: white; font-size: 3vw; cursor: pointer;" class="fa fa-arrow-left" aria-hidden="true"></i>
+        <div class="tracking_text">
+            <p>Altitude: Too High</p>
+            <p>Temperature: Too Cold</p>
+            <p>Distance Covered: Too less</p>
+            <p>Distance remaining: Too Much</p>
+        </div>
+    </div>   
+</body>
+<script src="../../javascript/scroll.js"></script>
+<script>
+    function goBack(){
+        window.location.href="http://127.0.0.1:5501/screens/Virtual_Exp/VE_4.html"
+    }
+</script>

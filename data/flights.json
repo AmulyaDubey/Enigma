@@ -7,106 +7,444 @@
             "time": "00:00",
             "price": 8200 
         },
-        
         {
-            "flightNumber": "SP568",
-            "arrivalCity": "Lenticular Galaxy",
-            "departureCity": "Stephan's Quintet",
-            "time": "01:00",
-            "price": 9400 
+            "flightNumber": "WE567",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Pulsar",
+            "time": "00:30",
+            "price": 8200 
         },
+        {
+            "flightNumber": "MJ652",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Pulsar",
+            "time": "00:10",
+            "price": 8200 
+        },
+        
 
         {
             "flightNumber": "SP568",
-            "departureCity": "Lenticular Galaxy",
-            "arrivalCity": "Stephan's Quintet",
-            "time": "01:40",
-            "price": 4700 
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Omega Nebula",
+            "time": "00:15",
+            "price": 9400 
         },
         {
             "flightNumber": "SP569",
-            "arrivalCity": "Thorne–Zytkow ",
-            "departureCity": "Quasar",
-            "time": "2:00",
+            "arrivalCity": "Lava Planet ",
+            "departureCity": "Lenticular Galaxy",
+            "time": "1:20",
+            "price": 4000 
+        },
+        {
+            "flightNumber": "SP669",
+            "arrivalCity": "Lava Planet ",
+            "departureCity": "Lenticular Galaxy",
+            "time": "1:25",
+            "price": 4000 
+        },
+        {
+            "flightNumber": "MJ569",
+            "arrivalCity": "Lava Planet ",
+            "departureCity": "Lenticular Galaxy",
+            "time": "1:40",
+            "price": 4000 
+        },
+        {
+            "flightNumber": "SP579",
+            "arrivalCity": "Lava Planet ",
+            "departureCity": "Lenticular Galaxy",
+            "time": "1:55",
             "price": 4000 
         },
         {
             "flightNumber": "SP570",
-            "arrivalCity": "Magnetar198",
-            "departureCity": "Hoag's Object",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Stephan's Quintet",
             "time": "3:00",
             "price": 3500 
         },
         {
+            "flightNumber": "SP980",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Stephan's Quintet",
+            "time": "3:10",
+            "price": 3500 
+        },
+        {
+            "flightNumber": "SP780",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Stephan's Quintet",
+            "time": "3:20",
+            "price": 3500 
+        },
+        {
             "flightNumber": "SP571",
-            "arrivalCity": "PlanetarM512",
+            "arrivalCity": "Lava Planet",
             "departureCity": "Blitzar",
-            "time": "4:00",
+            "time": "4:10",
             "price": 7850 
         },
         {
+            "flightNumber": "SP871",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Blitzar",
+            "time": "4:20",
+            "price": 7850 
+        },
+        {
+            "flightNumber": "SP571",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Blitzar",
+            "time": "4:22",
+            "price": 7850 
+        },{
+            "flightNumber": "SP571",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Blitzar",
+            "time": "4:55",
+            "price": 7850 
+        },
+        {
+            "flightNumber": "WE982",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Lenticular Galaxy",
+            "time": "5:05",
+            "price": 7400 
+        },
+        {
+            "flightNumber": "SP562",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Lenticular Galaxy",
+            "time": "5:25",
+            "price": 7400 
+        },
+        {
             "flightNumber": "SP572",
-            "arrivalCity": "Omega Nebula",
-            "departureCity": "Stephan's Quintet",
-            "time": "5:00",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Lenticular Galaxy",
+            "time": "5:40",
             "price": 7400 
         },
         {
             "flightNumber": "SP573",
-            "arrivalCity": "Lenticular Galaxy",
-            "departureCity": "Wolf-Rayet Star",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Stephan's Quintet",
+            "time": "6:00",
+            "price": 9200 
+        },
+        {
+            "flightNumber": "SP573",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Stephan's Quintet",
+            "time": "6:00",
+            "price": 9200 
+        },
+        {
+            "flightNumber": "SP573",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Stephan's Quintet",
+            "time": "6:00",
+            "price": 9200 
+        },
+        {
+            "flightNumber": "SP573",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Stephan's Quintet",
             "time": "6:00",
             "price": 9200 
         },
         {
             "flightNumber": "SP574",
-            "arrivalCity": "Chthonian Planet",
-            "departureCity": "Blazar654",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Blitzar",
+            "time": "7:00",
+            "price": 7400 
+        },
+        {
+            "flightNumber": "SP574",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Blitzar",
+            "time": "7:00",
+            "price": 7400 
+        },
+        {
+            "flightNumber": "SP574",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Blitzar",
+            "time": "7:00",
+            "price": 7400 
+        },
+        {
+            "flightNumber": "SP574",
+            "arrivalCity": "Pulsar",
+            "departureCity": "Blitzar",
             "time": "7:00",
             "price": 7400 
         },
         {
             "flightNumber": "SP575",
-            "arrivalCity": " Delphinus",
-            "departureCity": "Alpha Delphini",
+            "arrivalCity": " Pulsar",
+            "departureCity": "Lava Planet",
+            "time": "8:00",
+            "price": 6400 
+        },
+        {
+            "flightNumber": "SP575",
+            "arrivalCity": " Pulsar",
+            "departureCity": "Lava Planet",
+            "time": "8:00",
+            "price": 6400 
+        },
+        {
+            "flightNumber": "SP575",
+            "arrivalCity": " Pulsar",
+            "departureCity": "Lava Planet",
             "time": "8:00",
             "price": 6400 
         },
         {
             "flightNumber": "SP576",
-            "arrivalCity": "Alpha Delphini",
-            "departureCity": "Beta Delphini",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Pulsa",
             "time": "9:00",
             "price": 1100 
         },
+        
         {
             "flightNumber": "SP577",
-            "arrivalCity": "Hanny's Voorwerp",
-            "departureCity": "Dark Doodad",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Lava Planet",
             "time": "10:00",
             "price": 99100 
         },
         {
+            "flightNumber": "SP577",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Lava Planet",
+            "time": "10:00",
+            "price": 99100 
+        },{
+            "flightNumber": "SP577",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Lava Planet",
+            "time": "10:00",
+            "price": 99100 
+        },
+        
+        {
             "flightNumber": "SP578",
-            "arrivalCity": "Gomez's Hamburger",
-            "departureCity": "Alpha Boo",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Stephan's Quintet",
+            "time": "11:00",
+            "price": 75200 
+        },
+        {
+            "flightNumber": "SP578",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Stephan's Quintet",
+            "time": "11:00",
+            "price": 75200 
+        },
+        {
+            "flightNumber": "SP578",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Stephan's Quintet",
             "time": "11:00",
             "price": 75200 
         },
         {
             "flightNumber": "SP579",
-            "arrivalCity": "Aries",
-            "departureCity": "Elio",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Blitzar",
             "time": "12:00",
             "price": 9100 
         },
         {
-            "flightNumber": "SP880",
+            "flightNumber": "SP579",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Blitzar",
+            "time": "12:00",
+            "price": 9100 
+        },{
+            "flightNumber": "SP579",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Blitzar",
+            "time": "12:00",
+            "price": 9100 
+        },
+        {
+            "flightNumber": "SP580",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Pulsar",
+            "time": "12:40",
+            "price": 7500 
+        },{
+            "flightNumber": "SP580",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Pulsar",
+            "time": "12:40",
+            "price": 7500 
+        },{
+            "flightNumber": "SP580",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Pulsar",
+            "time": "12:40",
+            "price": 7500 
+        },{
+            "flightNumber": "SP580",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Pulsar",
+            "time": "12:40",
+            "price": 7500 
+        },
+        {
+            "flightNumber": "SP524",
+            "arrivalCity": "Stephan's Quintet",
             "departureCity": "Lava Planet",
-            "arrivalCity": "Pulsar",
-            "time": "20:30",
-            "price": 9960 
-        }
+            "time": "13:40",
+            "price": 4580 
+        },
+        {
+            "flightNumber": "SP524",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Lava Planet",
+            "time": "13:40",
+            "price": 4580 
+        },
+        {
+            "flightNumber": "SP524",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Lava Planet",
+            "time": "13:40",
+            "price": 4580 
+        },
+        {
+            "flightNumber": "SP456",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Lenticular Galaxy",
+            "time": "14:10",
+            "price": 3650 
+        },
+        {
+            "flightNumber": "SP456",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Lenticular Galaxy",
+            "time": "14:10",
+            "price": 3650 
+        },
+        {
+            "flightNumber": "SP456",
+            "arrivalCity": "Stephan's Quintet",
+            "departureCity": "Lenticular Galaxy",
+            "time": "14:10",
+            "price": 3650 
+        },
+        {
+            "flightNumber": "SP954",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Lava Planet",
+            "time": "14:40",
+            "price": 6470 
+        },
+        {
+            "flightNumber": "SP954",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Lava Planet",
+            "time": "14:40",
+            "price": 6470 
+        },{
+            "flightNumber": "SP954",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Lava Planet",
+            "time": "14:40",
+            "price": 6470 
+        },
+        {
+            "flightNumber": "SP287",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Pulsar",
+            "time": "15:00",
+            "price": 2750 
+        },
+        {
+            "flightNumber": "SP287",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Pulsar",
+            "time": "15:00",
+            "price": 2750 
+        },
+        {
+            "flightNumber": "SP287",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Pulsar",
+            "time": "15:00",
+            "price": 2750 
+        },
+        {
+            "flightNumber": "SP287",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Pulsar",
+            "time": "15:00",
+            "price": 2750 
+        },
+        {
+            "flightNumber": "SP527",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Stephan's Quintet",
+            "time": "15:10",
+            "price": 7410 
+        },
+        {
+            "flightNumber": "SP527",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Stephan's Quintet",
+            "time": "15:10",
+            "price": 7410 
+        },
+        {
+            "flightNumber": "SP527",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Stephan's Quintet",
+            "time": "15:10",
+            "price": 7410 
+        },
+        {
+            "flightNumber": "SP7832",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Lenticular Galaxy",
+            "time": "16:30",
+            "price": 4520 
+        },
+        {
+            "flightNumber": "SP7832",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Lenticular Galaxy",
+            "time": "16:30",
+            "price": 4520 
+        },
+        {
+            "flightNumber": "SP7832",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Lenticular Galaxy",
+            "time": "16:30",
+            "price": 4520 
+        },
+        {
+            "flightNumber": "SP7832",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Lenticular Galaxy",
+            "time": "16:30",
+            "price": 4520 
+        },
+        {
+            "flightNumber": "SP7832",
+            "arrivalCity": "Blitzar",
+            "departureCity": "Lenticular Galaxy",
+            "time": "16:30",
+            "price": 4520 
+        }  
 
     ]
 }

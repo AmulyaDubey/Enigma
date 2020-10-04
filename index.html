@@ -1,1 +1,53 @@
-<h1>THIS IS THE LANDING PAGE</h1>
+<!DOCTYPE html>
+<head>
+
+</head>
+
+<style>
+    .Index_File{
+        position: relative;
+    }
+
+    .start_btn{
+        position: absolute;
+        bottom:0;
+        top:0;
+        left:0;
+        right:0;
+        margin:auto;
+        width: 25vw;
+        height: 4.5vw;
+        border: none;
+        cursor: pointer;
+        background-image: linear-gradient(#113D77, #091731);
+        color: white;
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .start_btn:hover{
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    }
+</style>
+<body style="margin:0">
+    <div class="Index_File">
+        <video style="height:100%; width: 100%; object-fit: cover;" >
+            <source src="./assets/images/intro1.mp4" />
+        </video>
+        <button onclick="play()" class="start_btn">Click to begin</button>
+    </div>
+</body>
+
+<script>
+    function play(){
+        document.getElementsByTagName("video")[0].play()
+        document.getElementsByTagName("button")[0].style.display="none"
+        setTimeout(function(){
+            window.location.href='http://127.0.0.1:5501/screens/Home/Home.html'
+        }, 5000)
+    }
+
+
+</script>

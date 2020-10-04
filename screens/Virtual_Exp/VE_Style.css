@@ -2,37 +2,36 @@
     font-family: "PoppinsRegular";
     src: url("../../assets/fonts/Poppins-Regular.ttf");
   }
-html{
+  html{
     width: 100%;
     height: 100% ;
 }
-
 body{
     margin:0;
     width: 100%;
     height: 100%;
     background-color: #091731;
-    color: white;
-    overflow-x: scroll;
+    color: white
+}
 
-}
-::-webkit-scrollbar{
-    display: none;
-}
 
 .screen img{
-    /* width: 100%; */
+    width: 100%;
     height: 100vh;
     object-fit: cover;
     z-index: 1;
-    min-width: 100%;
+    transition: transform 2s; /* Animation */
+
 }
+
 
 .screen{
     position: relative;
     width: 100%;
     height: 100vh;
     overflow-x: scroll;
+    transition: transform 2s; /* Animation */
+
 }
 
 .buttons{
@@ -44,6 +43,8 @@ body{
     align-items: center;
     height: 20vw;
     padding: 0 0vw;
+    top:0;
+    margin: auto auto
 }
 
 .buttons i{
@@ -76,27 +77,34 @@ body{
 .exit_btn i{
     font-size: 3vw;
     cursor: pointer;
-
 }
 
 .Board_Now_Button{
-    width: 10vw;
-    height: 10vw;
-    border-radius: 50%;
+    width: 25vw;
+    height: 4.5vw;
     border: none;
     cursor: pointer;
     background-image: linear-gradient(#113D77, #091731);
     color: white;
     font-size: 2vw;
-    z-index: 20;
-    opacity: 0.6
-    
+    z-index: 20;    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8
+
+    /* -webkit-text-stroke: 0.07vw #113D77; */
 
     /* margin-top: -2vw; */
 }
 
+
 .Board_Now_Button:hover{
-    opacity:1
+    opacity:1;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    
 }
 
 .Board_Now_Button:focus{
@@ -105,7 +113,15 @@ body{
 
 button{
     cursor: pointer;
+}
 
+.tracking_text{
+    position: absolute;
+    bottom:0;
+    background-color: #091731;
+    padding: 2vw 10vw;
+    opacity:0.7;
+    border-radius: 3vw;
 }
 
 

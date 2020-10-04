@@ -7,18 +7,27 @@
 </head>
 <body>
     <div class="screen">
-        <img src="../../assets/images/boardingGate.png" />
+        <img id="screen_img" src="../../assets/images/board_now.jpg" />
         <div class="buttons">
-            <i  class="fa fa-chevron-left" id="left" ></i>
-            <button class="Board_Now_Button">Board Now!</button>
-            <i class="fa fa-chevron-right" id="right"></i>
+            <!-- <i  class="fa fa-chevron-left" id="left" ></i> -->
+            <button class="Board_Now_Button" onclick="boardNow()">Board Now!</button>
+            <!-- <i class="fa fa-chevron-right" id="right"></i> -->
         </div>
         <div class="exit_btn">       
-            <i class="fa fa-sign-out" id="exit">Exit</i>
+            <i class="fa fa-sign-out" onclick="exit()" id="exit">Exit</i>
         </div>
     </div>   
 </body>
 <script src="../../javascript/scroll.js"></script>
 <script>
+    function boardNow(){
+        document.getElementById("screen_img").style.transform="scale(2)"
+        setTimeout(()=>{
+            window.location.href="http://127.0.0.1:5501/screens/Virtual_Exp/VE_2.html"
+        }, 2000)
+    }
 
+    function exit(){
+        window.location.href="http://127.0.0.1:5501/screens/Home/Home.html"
+    }
 </script>

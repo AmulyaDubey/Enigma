@@ -1,0 +1,26 @@
+html{
+    width: 100%;
+    height: 100% ;
+}
+body{
+    margin:0;
+    width: 100%;
+    height: 100%;
+    background-color: #091731;
+    color: white
+}
+
+
+.screen img{
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.screen{
+    position: relative;
+    min-height: 100vh;
+
+}
+

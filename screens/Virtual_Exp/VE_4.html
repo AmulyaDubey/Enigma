@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="VE_3_Style.css"/>
+    <link rel="stylesheet" href="../../assets/stylesheet.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="screen_4">
+        <img id='img_4' src="../../assets/images/seat.jpg" />
+        <div class="buttons_3">
+            <i  class="fa fa-chevron-left" id="left" ></i>
+            <button class="Board_Now_Button" style="width: 20vw" onclick="liveTracking()">Check Live Tracking</button>
+            <button class="Board_Now_Button" style="width: 20vw" onclick="windowScreen()">See outside</button>
+            <i class="fa fa-chevron-right" id="right"></i>
+        </div>
+        <div class="exit_btn">       
+            <i class="fa fa-sign-out" onclick="exit()" id="exit">Exit</i>
+        </div>
+    </div>   
+</body>
+<script>
+
+    function windowScreen(){
+        document.getElementById("img_4").style.transform="scale(2) translateX(-25%) translateY(10%)"
+        setTimeout(()=>{
+                window.location.href="http://127.0.0.1:5501/screens/Virtual_Exp/VE_5.html"
+        }, 2000)
+    }
+
+    function liveTracking(){
+        document.getElementById("img_4").style.transform="scale(2) translateY(-20%)"
+        setTimeout(()=>{
+                window.location.href="http://127.0.0.1:5501/screens/Virtual_Exp/VE_6.html"
+        }, 2000)
+    }
+
+    function exit(){
+        window.location.href="http://127.0.0.1:5501/screens/Home/Home.html"
+    }
+</script>
