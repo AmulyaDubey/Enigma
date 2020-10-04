@@ -18,31 +18,4 @@
         setTimeout(function(){
             window.location.href="http://127.0.0.1:5501/screens/Virtual_Exp/VE_1.html"
         }, 4000)
-
-    // document.getElementsByTagName("a")[0].click()
-
-    function DoFullScreen() {
-
-        var isInFullScreen = (document.fullScreenElement && document.fullScreenElement !==     null) ||    // alternative standard method  
-                (document.mozFullScreen || document.webkitIsFullScreen);
-
-        var docElm = document.documentElement;
-        if (!isInFullScreen) {
-
-            if (docElm.requestFullscreen) {
-                docElm.requestFullscreen();
-            }
-            else if (docElm.mozRequestFullScreen) {
-                docElm.mozRequestFullScreen();
-                alert("Mozilla entering fullscreen!");
-            }
-            else if (docElm.webkitRequestFullScreen) {
-                docElm.webkitRequestFullScreen();
-                alert("Webkit entering fullscreen!");
-            }
-        }
-        document.getElementById("full_screen_btn").style.display='none'
-
-        
-    }
 </script>

@@ -1,0 +1,127 @@
+html, body{min-height:100%;}
+body{
+    width: 100%;
+    height: 100vh;
+    color: white;
+}
+.screen_3, .screen_4{
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    /* min-height: 100vh; */
+}
+
+.buttons_3 i{
+    opacity: 0.9 !important;
+    font-size: 10vw;
+    
+}
+
+.buttons_3{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vw;
+    padding: 0 0vw;
+}
+
+.exit_btn{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* z-index: 10; */
+    height: 3vw;
+    padding:0;
+    flex-direction: row;
+}
+
+.exit_btn i{
+    font-size: 3vw;
+    cursor: pointer;
+
+}
+
+.screen_3 img{
+    min-height: 100vh;
+    width: auto;
+    object-fit: cover;
+    transition: transform 2s; /* Animation */
+}
+
+.screen_4 img {
+    min-height: 100vh;
+    width: auto;
+    object-fit: cover;
+    transition: transform 2s; /* Animation */
+}
+
+.Board_Now_Button{
+    width: 25vw;
+    height: 4.5vw;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(#113D77, #091731);
+    color: white;
+    font-size: 2vw;
+    z-index: 20;    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8
+
+    /* -webkit-text-stroke: 0.07vw #113D77; */
+
+    /* margin-top: -2vw; */
+}
+
+
+.Board_Now_Button:hover{
+    opacity:1;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    
+}
+
+
+
+.second_arrow{
+    position: absolute;
+    bottom: 0;
+    transform: rotate(-15deg);
+    /* -webkit-animation: glow 0.5s ease-in-out infinite alternate;
+    -moz-animation: glow 0.5s ease-in-out infinite alternate;
+    animation: glow 0.5s ease-in-out infinite alternate; */
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+button:focus{
+    outline: none;
+}
+
+
+/* @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  } */
+
+  .Window_button{
+      border: none;
+      back
+  }
+
