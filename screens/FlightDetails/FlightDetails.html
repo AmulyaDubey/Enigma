@@ -114,6 +114,8 @@
     var obj
     if(c== 'search')  obj=JSON.parse(window.localStorage.getItem("flightSelected"))
     else obj=JSON.parse(window.localStorage.getItem("booked"))
+
+    if(c== 'manage') document.getElementsByClassName("Payment_Btn")[0].display='none'
     document.getElementById('flightNumber').innerHTML=obj.flightNumber
     document.getElementById('from').innerHTML=obj.departureCity
     document.getElementById('to').innerHTML=obj.arrivalCity
