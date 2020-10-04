@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "PoppinsBold";
+     : "PoppinsBold";
     src: url("../../assets/fonts/Poppins-Bold.ttf");
   }
 
 @font-face {
-    font-family: "PoppinsLight";
+     : "PoppinsLight";
     src: url("../../assets/fonts/Poppins-Light.ttf");
 }
 
@@ -47,7 +47,7 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-family: "PoppinsBold";
+     : "PoppinsBold";
     font-size: 4vw;
     line-height: 0.7em;
     overflow-x: scroll;
@@ -55,7 +55,7 @@ body{
 
 button{
     cursor: pointer;
-    font-family: "PoppinsLight";
+     : "PoppinsLight";
     font-size: 1.5vw;
     background-image: linear-gradient(#113D77, #091731);
     border: none;

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "PoppinsBold";
+     : "PoppinsBold";
     src: url("../../assets/fonts/Poppins-Bold.ttf");
   }
 
@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     justify-content: center;
     color: #0CB7C0;
-    font-family: "PoppinsBold";
+     : "PoppinsBold";
     background-color: #091731;
 }
 iframe{

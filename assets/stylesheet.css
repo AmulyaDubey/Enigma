@@ -33,13 +33,13 @@ html{
 
 body{
     margin:0;
-    font-family: "Font" !important;
+     : "Font" !important;
 }
 iframe{
     margin:0
 }
 
 @font-face {
-    font-family: "Font";
+     : "Font";
     src: url("../../assets/fonts/ShareTech-Regular.ttf");
   }

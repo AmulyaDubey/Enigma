@@ -1,15 +1,15 @@
 @font-face {
-    font-family: "PoppinsBold";
+     : "PoppinsBold";
     src: url("../../assets/fonts/Poppins-Bold.ttf");
   }
 
   @font-face {
-    font-family: "ChakraRegular";
+     : "ChakraRegular";
     src: url("../../assets/fonts/ChakraPetch-Regular.ttf");
   }
 
   @font-face {
-    font-family: "ChakraSemiBold";
+     : "ChakraSemiBold";
     src: url("../../assets/fonts/ChakraPetch-SemiBold.ttf");
   }
 body{
@@ -106,7 +106,7 @@ iframe{
 
 .Search_Page_Results_Title p{
     font-size: 3vw;
-    font-family: "PoppinsBold";
+     : "PoppinsBold";
     color: black;
     padding: 0 2vw
 
@@ -134,7 +134,7 @@ table {
   td, th {
     text-align: left;
     padding: 8px;
-    font-family: "ChakraRegular";
+     : "ChakraRegular";
   }
 
   td{
@@ -143,7 +143,7 @@ table {
   }
 
   th{
-    font-family: "ChakraSemiBold";
+     : "ChakraSemiBold";
     font-size: 1.5vw;
   }
   
@@ -171,7 +171,7 @@ table {
 }
 
 .Search_Screen_Bottom_Text{
-    font-family: "PoppinsBold";
+     : "PoppinsBold";
     background-color: black;
     margin-top: -1vw;
     width: 40%;

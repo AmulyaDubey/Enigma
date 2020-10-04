@@ -1,15 +1,15 @@
 @font-face {
-    font-family: "PoppinsBold";
+     : "PoppinsBold";
     src: url("../../assets/fonts/Poppins-Bold.ttf");
   }
 
   @font-face {
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
     src: url("../../assets/fonts/Poppins-Regular.ttf");
   }
 
   @font-face {
-    font-family: "ChakraBold";
+     : "ChakraBold";
     src: url("../../assets/fonts/ChakraPetch-Bold.ttf");
   }
 
@@ -52,7 +52,7 @@ iframe{
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-family: "PoppinsRegular";  
+     : "PoppinsRegular";  
     margin-left:0; 
 }
 
@@ -83,7 +83,7 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
     font-size: 2vw;
 }
 .flight_class_box p{
@@ -101,7 +101,7 @@ iframe{
 
 .flight_details_content_text{
     color: white;
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
     font-size: 1.5vw;
     line-height: 0.7em;
     opacity: 0.8;
@@ -113,7 +113,7 @@ iframe{
     bottom: 0.2vw;
     left: 26vw;
     font-size: 1vw;
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
     opacity: 0.8;
 }
 
@@ -122,13 +122,13 @@ iframe{
     bottom: 0.2vw;
     left: 40vw;
     font-size: 1vw;
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
     opacity: 0.8;
 }
 
 .flight_details_2{
     color: white;
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -157,7 +157,7 @@ iframe{
 .add_on_image_caption{
     background-color: #6D1C8D;
     color: white;
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
     text-align: center;
     padding: 0.5vw;
     border-radius: 1vw;
@@ -177,7 +177,7 @@ iframe{
 
 .bill_details{
     color: white;
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
     font-size: 1vw;
     background-color: #091731;
     padding: 0 5vw;
@@ -192,7 +192,7 @@ iframe{
 
 .flight_details_content{
     color: white;
-    font-family: "PoppinsRegular";
+     : "PoppinsRegular";
 }
 
 .bill{
@@ -202,7 +202,7 @@ iframe{
 }
 
 .Flight_Summary_Title{
-    font-family: "ChakraBold";
+     : "ChakraBold";
     color: white;
     width: 100%;
     text-align: center;

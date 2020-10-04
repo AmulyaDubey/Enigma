@@ -24,7 +24,7 @@ body{
   text-align: center;
   text-decoration: none;
   font-size: 17px;
-  font-family: "ChakraSemiBold";
+   : "ChakraSemiBold";
   height: 3.5vw;
   justify-content: center;
   margin-left: 2vw;
@@ -80,12 +80,12 @@ body{
 }
 
 @font-face {
-  font-family: "PoppinsBold";
+   : "PoppinsBold";
   src: url("../../assets/fonts/Poppins-Bold.ttf");
 }
 
 @font-face {
-  font-family: "ChakraSemiBold";
+   : "ChakraSemiBold";
   src: url("../../assets/fonts/ChakraPetch-SemiBold.ttf");
 }
 
@@ -106,7 +106,7 @@ body{
 .navbar__logo a{
   margin-left: 0;
   padding: 0;
-  font-family: "PoppinsBold";
+   : "PoppinsBold";
   color: #0CB7C0;
   font-size: 3vw;
   margin-right: 1vw;
