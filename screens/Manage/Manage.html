@@ -8,6 +8,7 @@
     <div class="manage_booking_full_screen">
         <button onclick="fligthDetails()" class="btn_1">See booked flight details</button>
         <button onclick="tracking()" class="btn_2">Check Flight Status(Tracking)</button>
+        <button onclick="pass()" class="btn_2">Boarding Pass</button>
     </div>
 
 </body>
@@ -30,7 +31,12 @@
             alert("You have not booked any flights!")
             return;
         }
-        window.location.href="https://amulyadubey.github.io/Enigma/screens/Virtual_Exp/VE_6?type=manage"
+        window.location.href="https://amulyadubey.github.io/Enigma/screens/Virtual_Exp/VE_6?type=track"
+    }
+
+    function pass(){
+        window.location.href="https://amulyadubey.github.io/Enigma/screens/BoardingPass/BoardingPass"
+
     }
 
 </script>
