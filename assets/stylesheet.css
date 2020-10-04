@@ -39,7 +39,11 @@ iframe{
     margin:0
 }
 
+p, h1, a, button{
+    font-family : "Font" !important;
+}
+
 @font-face {
-     font-family: "Font";
-    src: url("../../assets/fonts/ShareTech-Regular.ttf");
+    font-family: "Font";
+    src: url("../assets/fonts/ShareTech-Regular.ttf");
   }
