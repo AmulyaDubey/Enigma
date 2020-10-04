@@ -1,0 +1,210 @@
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("../../assets/fonts/Poppins-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "PoppinsRegular";
+    src: url("../../assets/fonts/Poppins-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "ChakraBold";
+    src: url("../../assets/fonts/ChakraPetch-Bold.ttf");
+  }
+
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #091731;
+}
+iframe{
+    margin: 0;   
+}
+
+.flight_details_full_screen{
+    background-image: url('../../assets/images/back3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 4% 0;
+    min-height: 100vh;
+}
+
+.flight_details_row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vw;
+}
+
+.flight_details_label{
+    /* background-color:#0CB7C0; */
+    width: 25%;
+    height: 15vw;
+    border-radius: 0 10vw 10vw 0;
+    background-image: linear-gradient(#113D77, #091731);
+    color: white;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "PoppinsRegular";  
+    margin-left:0; 
+}
+
+.flight_details_content{
+    width: 80%;
+    height: 15vw;
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 10vw 0 0 10vw;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    flex: none;
+    flex-shrink: unset;
+    overflow-y: hidden;
+    padding-left: 4vw;
+    color: white;
+    position: relative;
+    /* justify-content: space-evenly; */
+}
+
+.flight_class_box{
+    background-image: linear-gradient(#6D1C8D, #113D77);
+    min-width: 20vw;
+    height: 10vw;
+    border-radius: 1vw;
+    margin-left: 2vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "PoppinsRegular";
+    font-size: 2vw;
+}
+.flight_class_box p{
+    opacity: 0.8;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.flight_details_content img{
+    width: 30vw;
+    margin-top: 1vw;
+}
+
+.flight_details_content_text{
+    color: white;
+    font-family: "PoppinsRegular";
+    font-size: 1.5vw;
+    line-height: 0.7em;
+    opacity: 0.8;
+    min-width: 20vw;
+}
+
+.flight_details_from{
+    position: absolute;
+    bottom: 0.2vw;
+    left: 26vw;
+    font-size: 1vw;
+    font-family: "PoppinsRegular";
+    opacity: 0.8;
+}
+
+.flight_details_to{
+    position: absolute;
+    bottom: 0.2vw;
+    left: 40vw;
+    font-size: 1vw;
+    font-family: "PoppinsRegular";
+    opacity: 0.8;
+}
+
+.flight_details_2{
+    color: white;
+    font-family: "PoppinsRegular";
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    line-height: 0.7em;
+    background-color: #091731;
+    height: 100%;
+    width: 30vw;
+    padding: 0 2vw;
+    font-size: 1vw;
+
+}
+
+.add_on_container{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.add_on_container img{
+    height: 70%;
+    width: auto;
+}
+
+.add_on_image_caption{
+    background-color: #6D1C8D;
+    color: white;
+    font-family: "PoppinsRegular";
+    text-align: center;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    margin-top:0;
+    min-width: 10vw;
+
+}
+
+.add_on_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    min-width: 20vw;
+}
+
+.bill_details{
+    color: white;
+    font-family: "PoppinsRegular";
+    font-size: 1vw;
+    background-color: #091731;
+    padding: 0 5vw;
+    float: right;
+    margin:0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.7em;
+}
+
+.flight_details_content{
+    color: white;
+    font-family: "PoppinsRegular";
+}
+
+.bill{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.Flight_Summary_Title{
+    font-family: "ChakraBold";
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 4vw;
+}

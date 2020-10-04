@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("../../assets/fonts/Poppins-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "ChakraRegular";
+    src: url("../../assets/fonts/ChakraPetch-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "ChakraSemiBold";
+    src: url("../../assets/fonts/ChakraPetch-SemiBold.ttf");
+  }
+body{
+    margin:0;
+    background-color:white ;
+    color: white;
+    height: 100%;
+    padding:0;
+    width: 100%;
+}
+
+html{
+  width:100%;
+  height:100%;
+}
+iframe{
+    margin: 0;
+    width: 100%
+
+}
+
+#loading_screen_embed{
+    height: 50vw;
+}
+
+.Search_Page_Container{
+    margin:0;
+    overflow-x: scroll;
+    margin-top: -0.5vw;
+    z-index: 0;
+    position: relative;
+    
+    height: 100vh;
+    width: auto;
+}
+
+.Search_Page_Container img{
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+.Search_Page_Results_Container_1{
+    position: absolute;
+    z-index: 1;
+    height: 90vh;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* transform: translateX(-80%); */
+
+}
+
+.Search_Page_Results_Container_2 {
+    /* max-width: 60vw; */
+    height: 85%;
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search_Page_Results_Container_3{
+    height: 10%;
+    width:100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.Search_Page_Results_Container_4{
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    
+}
+
+.Search_Page_Results_Container_5{
+    width:97%;
+    height:95%;
+    background-color: #151A20;
+}
+
+.Search_Page_Results_Title{
+    width: 100%;
+    height: 15%;
+    background-color: #FFC102;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Search_Page_Results_Title p{
+    font-size: 3vw;
+    font-family: "PoppinsBold";
+    color: black;
+    padding: 0 2vw
+
+}
+.Search_Page_Results_Title img{
+    height: 100%
+}
+
+.Search_Page_Results_Item_header{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Search_Page_Results_Item_Time{
+    width: 100%;
+    color: white;
+    margin-top: 1vw;
+}
+
+table {
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+    font-family: "ChakraRegular";
+  }
+
+  td{
+    cursor: pointer;
+
+  }
+
+  th{
+    font-family: "ChakraSemiBold";
+    font-size: 1.5vw;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #21252E;
+  }
+
+
+  td:first-child{
+    color: #FFC102
+
+  }
+
+  td:nth-child(4) {
+      opacity: 0.5
+  }
+
+  th{
+    opacity: 0.7
+
+  }
+
+  td:nth-child(5) {
+      color: #FF2D29
+}
+
+.Search_Screen_Bottom_Text{
+    font-family: "PoppinsBold";
+    background-color: black;
+    margin-top: -1vw;
+    width: 40%;
+    text-align: center;
+    color: rgba(255,255,255,0.7)
+}
+

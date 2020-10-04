@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("../../assets/fonts/Poppins-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "PoppinsRegular";
+    src: url("../../assets/fonts/Poppins-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "ChakraSemiBold";
+    src: url("../../assets/fonts/ChakraPetch-SemiBold.ttf");
+  }
+
+body{
+    width: 100%;
+    margin: 0;
+    color: #0CB7C0;
+    font-family: "PoppinsBold";
+    
+
+
+}
+iframe{
+    margin: 0;
+}
+
+h1{
+    font-size: 3vw;
+    color: #0CB7C0;
+    z-index: 1;
+}
+
+.Book_Now_Row{
+    display: flex
+}
+
+.Book_Input_Box{
+    width: 25vw;
+    height: 5vw;
+    font-size: 2vw;
+    background-color: rgba(17,61,119, 0.5);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "PoppinsRegular";
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.Book_Input_Feild:focus{
+    outline: none;
+}
+
+.Book_Input_Feild{
+    width: 17vw;
+    height: 5vw;
+    padding: 0 1vw;
+    border: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5vw;
+
+}
+
+.Gradient_1{
+    border-image-source: linear-gradient(to left, #0CB7C0, #d53a9d);
+
+}
+
+
+.Gradient_2{
+    border-image-source: linear-gradient(to left, #6D1C8D, #0CB7C0);
+}
+
+.Book_now_Title{
+    position: absolute;
+    width: 25vw;
+    float: right;
+    right: 5vw;
+    
+}
+
+.Book_Flight_Section{
+    display: flex; 
+    justify-content: space-around;
+    background-image: url('../../assets/images/starry_bg.jpg');
+    background-size: cover;
+    padding: 4%;
+    margin-top: -0.5vw;
+}
+
+.Book_Now_Button{
+    width: 15vw;
+    height: 4vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+    background-image: linear-gradient(#113D77, #091731);
+    border: none;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.Search_Flight_Button{
+    width: 30vw;
+    height: 3.5vw;
+    margin-top: 8vw;
+    font-size: 2vw;
+    border-radius: 2vw;
+    background-image: linear-gradient(#0CB7C0, #113D77);
+    border: none;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none
+}
+
+.Popular_Destinations_Section{
+    background-image: url('../../assets/images/planet_wallpaper.jpg');
+    /* margin-top: 5vw; */
+    padding: 4%;
+    background-size: cover;
+    color: white;
+    height: 80vw;
+    max-width: 100%;
+    
+}
+
+.Popular_Destinations_Section h1{
+    color: white;
+    font-family: "ChakraSemiBold";
+    background-color: #091731;
+    text-align: center;
+    padding: 1vw;
+    width: 100%;
+
+}
+
+.Dest_Images_Container{
+    overflow-x: scroll;
+    display: flex;
+    width: 100%;
+
+}
+
+.Dest_Images_Container img{
+    width: 60vw;
+    height: 30vw;
+    object-fit: cover;
+    margin-right: 5vw;
+}
+
+.View_More_button_Book_Page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+datalist{
+    background-color: teal;
+}
+
+
+
+
+

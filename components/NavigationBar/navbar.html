@@ -1,0 +1,36 @@
+<head>
+  <link rel="stylesheet" href="./navbarStyle.css" />
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+      <div class="navbar__logo" style="float: left">
+        <a><img src="logo.png"/></a>
+        <a>XYZ</a>
+      </div>
+      <div class="navbar__links">
+        <a id="virtual_experience" onclick="redirectTo('virtual_experience')"><strong>Virtual Experience</strong></a>
+        <a id="offers" onclick="redirectTo('offers')">Partners</a>
+        <a id="manage_booking" onclick="redirectTo('manage_booking')">Manage Booking</a>
+        <a id="book" onclick="redirectTo('book')">Book</a>
+        <a id="home" onclick="redirectTo('home')" >Home</a>
+      </div>
+    </div>    
+</body>
+
+  <script>
+    var url_string=window.location.href
+    var url=new URL(url_string)
+    var c = url.searchParams.get("active");
+    document.getElementById(c).classList.add("active")
+
+    const redirectTo=(id)=>{
+      console.log(window.parent.location.href, id)
+      if(id==='home') window.parent.location.href= "http://127.0.0.1:5501/screens/Home/Home.html"
+      else if(id==='book')  window.parent.location.href= "http://127.0.0.1:5501/screens/Book/Book.html"
+      else if(id==='manage_booking')  window.parent.location.href= "http://127.0.0.1:5501/screens/Manage/Manage.html"
+      else if(id==='offers')  window.parent.location.href= "http://127.0.0.1:5501/screens/Offers/Offers.html"
+      else if(id==='virtual_experience')  window.parent.location.href= "http://127.0.0.1:5501/components/VE_Loading/VE_Loading.html"
+    }
+    
+    
+  </script>

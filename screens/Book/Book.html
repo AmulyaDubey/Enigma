@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="BookStyle.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../../javascript/createBooking.js"></script>
+</head>
+
+<body>
+    <iframe src="../../components/NavigationBar/navbar.html?active=book"  frameBorder="0" width="100%" max-height="100%"></iframe>
+    <div style="position: relative; margin-top: -0.5vw;">
+        <div class="Book_now_Title" >
+            <h1 style="font-size: 4vw; color: white">WELCOME TO THE FUTURE OF SPACESHIPS</h1>
+            <button class="Book_Now_Button" onclick="slideDown();">Book Now!</button>
+        </div>
+        <img style="width: 100%; height: 100%; margin-top: -0vw" src='../../assets/images/Untitled-1.jpg' alt=""/>
+    </div>
+    <div>
+        <div class="Book_Flight_Section">
+            <div>
+                <h1>FLY WITH US</h1>
+                <div class="Book_Now_Row">
+                    <div  class="Book_Input_Box Gradient_1">
+                        <p style="opacity: 0.3; padding-left: 0.5vw">FROM <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </p>
+                        <input list="airports" id="From_city" class="Book_Input_Feild"/>
+                    </div>
+                    <div  class="Book_Input_Box Gradient_1" style="margin-left: 3vw;">
+                        <p  style="opacity: 0.3; padding-left: 0.5vw">TO <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </p>
+                        <input list="airports" id="To_city" style="width: 19vw" class="Book_Input_Feild"/>
+                    </div>
+                </div>
+                <div class="Book_Input_Box Gradient_2" style="margin-top: 3vw; width: 35vw">
+                    <p style="opacity: 0.3; padding-left: 0.5vw">TRAVEL DATE &nbsp;<i class="fa fa-calendar" aria-hidden="true"></i>
+                    </p>
+                    <input  type="date" style="width: 21vw" class="Book_Input_Feild"/>
+                </div>
+                <button onclick="createBooking()" class="Search_Flight_Button">Search Spacecrafts</button>
+            </div>
+            <div>
+                <img src="../../assets/images/book_2.jpg" style="width: 35vw; height: 25vw; border-radius: 50%;" />
+            </div>
+        </div>
+        <div class="Popular_Destinations_Section">
+            <h1>ALSO SOME POPULAR DESTINATIONS WE CONNECT:</h1>
+            <div class="Dest_Images_Container">
+                <div>
+                    <img src="../../assets/images/dest1.jpg" />
+                    <p>Dest1</p>
+                </div>
+                <div>
+                    <img src="../../assets/images/dest3.jpg" />
+                    <p>Dest2</p>
+                </div>
+                <div>
+                    <img src="../../assets/images/dest2.jpeg" />
+                    <p>Dest3</p>
+                </div>
+                <div>
+                    <img src="../../assets/images/dest4.jpg" />
+                    <p>Dest4</p>
+                </div>
+                <div>
+                    <img src="../../assets/images/dest5.jpg" />
+                    <p>Dest5</p>
+                </div>
+                <div>
+                    <img src="../../assets/images/dest6.jpg" />
+                    <p>Dest6</p>
+                </div>
+            </div>
+            <div>
+
+            <div class="View_More_button_Book_Page">
+                <button class="Search_Flight_Button" >View More</button>
+            </div>
+            <datalist id="airports"></datalist>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    function slideDown() {
+        window.scrollTo({left:0, top:1000, behavior: 'smooth'})
+    }    
+</script>
+<script src="../../javascript/resize-iframe.js"></script>
+<script src="../../javascript/renderDataList.js"></script>

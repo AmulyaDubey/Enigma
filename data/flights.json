@@ -1,0 +1,112 @@
+{
+    "flights":[
+        {
+            "flightNumber": "SP567",
+            "arrivalCity": "Lava Planet",
+            "departureCity": "Pulsar",
+            "time": "00:00",
+            "price": 8200 
+        },
+        
+        {
+            "flightNumber": "SP568",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Stephan's Quintet",
+            "time": "01:00",
+            "price": 9400 
+        },
+
+        {
+            "flightNumber": "SP568",
+            "departureCity": "Lenticular Galaxy",
+            "arrivalCity": "Stephan's Quintet",
+            "time": "01:40",
+            "price": 4700 
+        },
+        {
+            "flightNumber": "SP569",
+            "arrivalCity": "Thorne–Zytkow ",
+            "departureCity": "Quasar",
+            "time": "2:00",
+            "price": 4000 
+        },
+        {
+            "flightNumber": "SP570",
+            "arrivalCity": "Magnetar198",
+            "departureCity": "Hoag's Object",
+            "time": "3:00",
+            "price": 3500 
+        },
+        {
+            "flightNumber": "SP571",
+            "arrivalCity": "PlanetarM512",
+            "departureCity": "Blitzar",
+            "time": "4:00",
+            "price": 7850 
+        },
+        {
+            "flightNumber": "SP572",
+            "arrivalCity": "Omega Nebula",
+            "departureCity": "Stephan's Quintet",
+            "time": "5:00",
+            "price": 7400 
+        },
+        {
+            "flightNumber": "SP573",
+            "arrivalCity": "Lenticular Galaxy",
+            "departureCity": "Wolf-Rayet Star",
+            "time": "6:00",
+            "price": 9200 
+        },
+        {
+            "flightNumber": "SP574",
+            "arrivalCity": "Chthonian Planet",
+            "departureCity": "Blazar654",
+            "time": "7:00",
+            "price": 7400 
+        },
+        {
+            "flightNumber": "SP575",
+            "arrivalCity": " Delphinus",
+            "departureCity": "Alpha Delphini",
+            "time": "8:00",
+            "price": 6400 
+        },
+        {
+            "flightNumber": "SP576",
+            "arrivalCity": "Alpha Delphini",
+            "departureCity": "Beta Delphini",
+            "time": "9:00",
+            "price": 1100 
+        },
+        {
+            "flightNumber": "SP577",
+            "arrivalCity": "Hanny's Voorwerp",
+            "departureCity": "Dark Doodad",
+            "time": "10:00",
+            "price": 99100 
+        },
+        {
+            "flightNumber": "SP578",
+            "arrivalCity": "Gomez's Hamburger",
+            "departureCity": "Alpha Boo",
+            "time": "11:00",
+            "price": 75200 
+        },
+        {
+            "flightNumber": "SP579",
+            "arrivalCity": "Aries",
+            "departureCity": "Elio",
+            "time": "12:00",
+            "price": 9100 
+        },
+        {
+            "flightNumber": "SP880",
+            "departureCity": "Lava Planet",
+            "arrivalCity": "Pulsar",
+            "time": "20:30",
+            "price": 9960 
+        }
+
+    ]
+}

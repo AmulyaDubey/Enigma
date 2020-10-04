@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("../../assets/fonts/Poppins-Bold.ttf");
+  }
+
+body{
+    margin:0;
+    background-color:white ;
+    color: white;
+    height: 100%;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0CB7C0;
+    font-family: "PoppinsBold";
+    background-color: #091731;
+}
+iframe{
+    margin: 0;
+}
+
+video:focus{
+    outline: none;
+}
+
+.HomePage_Button{
+    width: 25vw;
+    height: 4vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+    background-image: linear-gradient(#113D77, #091731);
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.HomePage_Button:focus{
+    outline: none;
+}
+
+.Payment_Text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%
+}
