@@ -1,7 +1,3 @@
-@font-face {
-     : "PoppinsBold";
-    src: url("../../assets/fonts/Poppins-Bold.ttf");
-  }
 
 body{
     margin:0;
@@ -13,7 +9,6 @@ body{
     flex-direction: column;
     justify-content: center;
     color: #0CB7C0;
-     : "PoppinsBold";
     background-color: #091731;
 }
 iframe{

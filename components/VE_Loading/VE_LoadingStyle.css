@@ -1,12 +1,4 @@
-@font-face {
-     : "PoppinsBold";
-    src: url("../../assets/fonts/Poppins-Bold.ttf");
-  }
 
-@font-face {
-     : "PoppinsLight";
-    src: url("../../assets/fonts/Poppins-Light.ttf");
-}
 
 
 html{
@@ -47,7 +39,6 @@ body{
     justify-content: center;
     text-align: center;
     align-items: center;
-     : "PoppinsBold";
     font-size: 4vw;
     line-height: 0.7em;
     overflow-x: scroll;
@@ -55,7 +46,6 @@ body{
 
 button{
     cursor: pointer;
-     : "PoppinsLight";
     font-size: 1.5vw;
     background-image: linear-gradient(#113D77, #091731);
     border: none;

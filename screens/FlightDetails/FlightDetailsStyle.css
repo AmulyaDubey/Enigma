@@ -1,17 +1,3 @@
-@font-face {
-     : "PoppinsBold";
-    src: url("../../assets/fonts/Poppins-Bold.ttf");
-  }
-
-  @font-face {
-     : "PoppinsRegular";
-    src: url("../../assets/fonts/Poppins-Regular.ttf");
-  }
-
-  @font-face {
-     : "ChakraBold";
-    src: url("../../assets/fonts/ChakraPetch-Bold.ttf");
-  }
 
 
 
@@ -52,7 +38,6 @@ iframe{
     align-items: center;
     justify-content: center;
     text-align: center;
-     : "PoppinsRegular";  
     margin-left:0; 
 }
 
@@ -83,7 +68,6 @@ iframe{
     display: flex;
     justify-content: center;
     align-items: center;
-     : "PoppinsRegular";
     font-size: 2vw;
 }
 .flight_class_box p{
@@ -101,7 +85,6 @@ iframe{
 
 .flight_details_content_text{
     color: white;
-     : "PoppinsRegular";
     font-size: 1.5vw;
     line-height: 0.7em;
     opacity: 0.8;
@@ -113,7 +96,6 @@ iframe{
     bottom: 0.2vw;
     left: 26vw;
     font-size: 1vw;
-     : "PoppinsRegular";
     opacity: 0.8;
 }
 
@@ -122,13 +104,11 @@ iframe{
     bottom: 0.2vw;
     left: 40vw;
     font-size: 1vw;
-     : "PoppinsRegular";
     opacity: 0.8;
 }
 
 .flight_details_2{
     color: white;
-     : "PoppinsRegular";
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -157,7 +137,6 @@ iframe{
 .add_on_image_caption{
     background-color: #6D1C8D;
     color: white;
-     : "PoppinsRegular";
     text-align: center;
     padding: 0.5vw;
     border-radius: 1vw;
@@ -177,7 +156,6 @@ iframe{
 
 .bill_details{
     color: white;
-     : "PoppinsRegular";
     font-size: 1vw;
     background-color: #091731;
     padding: 0 5vw;
@@ -192,7 +170,6 @@ iframe{
 
 .flight_details_content{
     color: white;
-     : "PoppinsRegular";
 }
 
 .bill{
@@ -202,7 +179,6 @@ iframe{
 }
 
 .Flight_Summary_Title{
-     : "ChakraBold";
     color: white;
     width: 100%;
     text-align: center;

@@ -1,23 +1,8 @@
-@font-face {
-     : "PoppinsBold";
-    src: url("../../assets/fonts/Poppins-Bold.ttf");
-  }
-
-  @font-face {
-     : "PoppinsRegular";
-    src: url("../../assets/fonts/Poppins-Regular.ttf");
-  }
-
-  @font-face {
-     : "ChakraSemiBold";
-    src: url("../../assets/fonts/ChakraPetch-SemiBold.ttf");
-  }
 
 body{
     width: 100%;
     margin: 0;
     color: #0CB7C0;
-     : "PoppinsBold";
     
 
 
@@ -48,7 +33,6 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-     : "PoppinsRegular";
     font-size: 1.5vw;
     text-align: center;
 }
@@ -137,7 +121,6 @@ button:focus{
 
 .Popular_Destinations_Section h1{
     color: white;
-     : "ChakraSemiBold";
     background-color: #091731;
     text-align: center;
     padding: 1vw;

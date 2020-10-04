@@ -24,7 +24,6 @@ body{
   text-align: center;
   text-decoration: none;
   font-size: 17px;
-   : "ChakraSemiBold";
   height: 3.5vw;
   justify-content: center;
   margin-left: 2vw;
@@ -79,15 +78,7 @@ body{
   }
 }
 
-@font-face {
-   : "PoppinsBold";
-  src: url("../../assets/fonts/Poppins-Bold.ttf");
-}
 
-@font-face {
-   : "ChakraSemiBold";
-  src: url("../../assets/fonts/ChakraPetch-SemiBold.ttf");
-}
 
 
 .navbar__logo{
@@ -106,7 +97,6 @@ body{
 .navbar__logo a{
   margin-left: 0;
   padding: 0;
-   : "PoppinsBold";
   color: #0CB7C0;
   font-size: 3vw;
   margin-right: 1vw;
